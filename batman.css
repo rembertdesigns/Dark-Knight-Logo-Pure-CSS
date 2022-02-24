@@ -79,4 +79,23 @@ body{
     transform: translate(-50%, -10%);
     clip-path: polygon(0% 0%, 100% 0, 75% 100%, 25% 100%);
   }
+  footer {
+    position: relative;
+    padding: 10px;
+    top: 500px;
+    left: -20px;
+    background: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+footer a {
+  text-decoration: none;
+  color: #c63a3a;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #000
+}
   
