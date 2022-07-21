@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background: white;
+  }
+  div > div{
+    position: absolute;
+  }
+  .canvas{
+    width: 90vmin;
+    height: 90vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .batman{
+    width: 100%;
+    height: 30%;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .circle-1{
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    background: white;
+    bottom: -40%;
+    left: -10%;
+  }
+  .circle-2{
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    background: white;
+    bottom: -40%;
+    right: -10%;
+  }
+  .circle-3{
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    top: -7%;
+    left: -45%;
+  }
+  .circle-4{
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    top: -7%;
+    right: -45%;
+  }
+  .square-1{
+    width: 12%;
+    height: 40%;
+    border-radius: 0 0 40% 90%;
+    background: white;
+    top: -10%;
+    left: 33%;
+  }
+  .square-2{
+    width: 12%;
+    height: 40%;
+    border-radius: 0 0 90% 40%;
+    background: white;
+    top: -10%;
+    right: 33%;
+  }
+  .square-3{
+    width: 12%;
+    height: 28%;
+    background: white;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    clip-path: polygon(0% 0%, 100% 0, 75% 100%, 25% 100%);
+  }
+  
